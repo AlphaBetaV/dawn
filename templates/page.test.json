@@ -10,7 +10,16 @@
     "1661313491b8399a92": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{{page.title | capitalize}}",
+        "custom_liquid": "{{page.title | capitalize}}\n<br>\n{% if product.title != \"Awesome Shoes\" %}\n  These shoes are awesome!\n{% endif %}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1661313852cd2df2aa": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if page.title == 'Contact'%}\nYes the title is Contact\n{% endif %}",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -19,6 +28,7 @@
   },
   "order": [
     "main",
-    "1661313491b8399a92"
+    "1661313491b8399a92",
+    "1661313852cd2df2aa"
   ]
 }
