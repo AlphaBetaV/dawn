@@ -125,7 +125,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "testing testing",
+              "text": "Welcome to the store",
               "text_alignment": "center",
               "color_scheme": "background-1",
               "link": ""
